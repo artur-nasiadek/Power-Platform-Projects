@@ -1,7 +1,7 @@
 ## Personal Library Manager w/ Power Apps, Power Automate, Dataverse
 
-<h6>This app helps to keep track of books in user's personal library.
-The user can add a book into the app by scanning the book's barcode that contains ISBN. Using Google Books API the app extracts for the given ISBN the book's details:</h6>
+<h4>This app helps to keep track of books in user's personal library.
+The user can add a book into the app by scanning the book's barcode that contains ISBN. Using Google Books API the app extracts for the given ISBN the book's details:</h4>
 
 - title,
 - author's name,
