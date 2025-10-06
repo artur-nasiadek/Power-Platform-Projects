@@ -7,8 +7,8 @@ The user can add a book into the app by scanning the book's barcode that contain
 - book cover image.
 
 The details are added into Dataverse table that feeds the app.
- 
+
 
 Welcome screen
 
-<img src="/Personal%20Library%20Manager/Images/WelcomeScreen.jpg" width="200">
+<img src="/Personal%20Library%20Manager/Images/WelcomeScreen.jpg" width="200"> After opening the app the welcome screen is displayed with app's name and a buttom that leads to the list of books. 
