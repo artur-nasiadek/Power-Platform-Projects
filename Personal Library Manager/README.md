@@ -10,7 +10,7 @@ The user can add a book into the app by scanning the book's barcode that contain
 </ul>
 <p></p>
 The details are added into Dataverse table that feeds the app.</h4>
-
+<br>
 
 <h3>Walkthrough of the app</h3>
 
