@@ -24,10 +24,12 @@ On the next screen the list of books is displayed. The list can be filtered with
 <p><b>Books list screen</b></p>
 <!--<img src="/Personal%20Library%20Manager/Images/BooksListScreen.jpg" width="200"> -->
 
-<img width="200" src="/Personal Library Manager/Images/BooksListScreen.jpg">
+<img align=left width="200" src="/Personal Library Manager/Images/BooksListScreen.jpg">
 <img width="200" src="/Personal Library Manager/Images/FetchBookInfo.png">
 
+<p>
 By pressing on any item on the list a new screen is dispalyed containing the selected book's details and date of adding into the app. Additionally, there are options for the user to edit: status *read*/*unread* and rating. Pressing the *back to my bookcase* button will take the user back to the list of books.
+</p>
 
 <p><b>Book info screen</b></p>
 <img src="/Personal%20Library%20Manager/Images/BookInfoScreen.jpg" width="200">
