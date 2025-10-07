@@ -26,20 +26,14 @@ On the next screen the list of books is displayed. The list can be filtered with
 
 
 <table style="width:80%">
-  <tr>
-    <td>
-        <figure>
-            <figcaption><b>Books list screen</b></figcaption>
-            <img src="/Personal%20Library%20Manager/Images/BooksListScreen.jpg" width="200">
-        </figure>
-    </td>
-    <td>
-        <figure>
-            <figcaption><b>Cloud flow</b></figcaption>
-            <img width="200" src="/Personal Library Manager/Images/FetchBookInfo.png">
-        </figure>
-    </td>
-  </tr>
+    <tr>
+        <td><b>Books list screen</b></td>
+        <td><b>Cloud flow</b></td>
+    </tr>
+    <tr>
+        <td><img src="/Personal%20Library%20Manager/Images/BooksListScreen.jpg" width="200"></td>
+        <td><img width="200" src="/Personal Library Manager/Images/FetchBookInfo.png"></td>
+    </tr>
 </table>
 
 
