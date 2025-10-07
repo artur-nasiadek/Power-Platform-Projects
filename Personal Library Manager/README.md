@@ -15,21 +15,28 @@ The details are added into Dataverse table that feeds the app.</h4>
 <h3>Walkthrough of the app</h3>
 
 After opening the app the *welcome screen* is displayed with app's name and a button that leads to the list of books that have been already added to the app.
-<p></p>
-<p><b>Welcome screen</b></p>
-<img src="/Personal%20Library%20Manager/Images/WelcomeScreen.jpg" width="200">
+<br>
+
+<!--p><b>Welcome screen</b></p-->
+<figure>
+    <img src="/Personal%20Library%20Manager/Images/WelcomeScreen.jpg" width="200">
+    <figcaption>Welcome screen</figcaption>
+</figure>
 
 On the next screen the list of books is displayed. The list can be filtered with the *search book* field by title and author's name, and also with buttons: *read* and *unread*. Additionally, the list can be sorted by title, author's name or book rating. In order to add new book into the books collection the user has to press the *scan to add new book* button, which will open the barcode scanner. After scanning the new book's ISBN barcode, a Power Automate flow is activated. In the flow the ISBN is used to extract the book's details from Google Books. The extracted information is populated in the Dataverse table and the new book is displayed on the list of books. 
 
 <p><b>Books list screen</b></p>
 <!--<img src="/Personal%20Library%20Manager/Images/BooksListScreen.jpg" width="200"> -->
 
-<img align=left width="200" src="/Personal Library Manager/Images/BooksListScreen.jpg">
-<img width="200" src="/Personal Library Manager/Images/FetchBookInfo.png">
+<table style="width:60%">
+  <tr>
+    <td><img src="/Personal%20Library%20Manager/Images/BooksListScreen.jpg" width="200"></td>
+    <td><img width="200" src="/Personal Library Manager/Images/FetchBookInfo.png"></td>
+  </tr>
+</table>
 
-<p>
+
 By pressing on any item on the list a new screen is dispalyed containing the selected book's details and date of adding into the app. Additionally, there are options for the user to edit: status *read*/*unread* and rating. Pressing the *back to my bookcase* button will take the user back to the list of books.
-</p>
 
 <p><b>Book info screen</b></p>
 <img src="/Personal%20Library%20Manager/Images/BookInfoScreen.jpg" width="200">
