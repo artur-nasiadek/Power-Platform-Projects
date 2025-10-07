@@ -19,8 +19,8 @@ After opening the app the *welcome screen* is displayed with app's name and a bu
 
 <!--p><b>Welcome screen</b></p-->
 <figure>
-    <img src="/Personal%20Library%20Manager/Images/WelcomeScreen.jpg" width="200">
     <figcaption>Welcome screen</figcaption>
+    <img src="/Personal%20Library%20Manager/Images/WelcomeScreen.jpg" width="200">
 </figure>
 
 On the next screen the list of books is displayed. The list can be filtered with the *search book* field by title and author's name, and also with buttons: *read* and *unread*. Additionally, the list can be sorted by title, author's name or book rating. In order to add new book into the books collection the user has to press the *scan to add new book* button, which will open the barcode scanner. After scanning the new book's ISBN barcode, a Power Automate flow is activated. In the flow the ISBN is used to extract the book's details from Google Books. The extracted information is populated in the Dataverse table and the new book is displayed on the list of books. 
