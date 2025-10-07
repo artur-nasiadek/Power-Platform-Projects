@@ -24,29 +24,12 @@ After opening the app the *welcome screen* is displayed with app's name and a bu
 
 On the next screen the list of books is displayed. The list can be filtered with the *search book* field by title and author's name, and also with buttons: *read* and *unread*. Additionally, the list can be sorted by title, author's name or book rating. In order to add new book into the books collection the user has to press the *scan to add new book* button, which will open the barcode scanner. After scanning the new book's ISBN barcode, a Power Automate flow is activated. In the flow the ISBN is used to extract the book's details from Google Books. The extracted information is populated in the Dataverse table and the new book is displayed on the list of books. 
 
-<style>
-    table {
-    width: 80%;
-    border-collapse: collapse; /* Collapse borders */
-    }
+<p><b>Books list screen</b></p>
+<!--<img src="/Personal%20Library%20Manager/Images/BooksListScreen.jpg" width="200"> -->
 
-    th, td {
-    border: none; /* Remove all borders */
-    padding: 8px; /* Add some padding for readability */
-    text-align: left;
-    }
-</style>
+<img align="left" width="45%" src="/Personal Library Manager/Images/BooksListScreen.jpg"><img align="right" width="45%" src="/Personal Library Manager/Images/FetchBookInfo.png">
 
-<table>
-    <tr>
-        <td><b>Books list screen</b></td>
-        <td><b>Cloud flow</b></td>
-    </tr>
-    <tr>
-        <td><img src="/Personal%20Library%20Manager/Images/BooksListScreen.jpg" width="200"></td>
-        <td><img width="200" src="/Personal Library Manager/Images/FetchBookInfo.png"></td>
-    </tr>
-</table>
+##
 
 
 By pressing on any item on the list a new screen is dispalyed containing the selected book's details and date of adding into the app. Additionally, there are options for the user to edit: status *read*/*unread* and rating. Pressing the *back to my bookcase* button will take the user back to the list of books.
