@@ -43,3 +43,5 @@ On this screen the user can practice and exercise to learn foreign words by prov
 
 <img src="/Foreign Words Dictionary/Images/DailyTaskCheckScreen.jpg" width="200">
 <br>
+
+The toggle in the header of the screen gives the user an option to switch the base word with the translation, so the user can translate in the 'opposite direction'. 
