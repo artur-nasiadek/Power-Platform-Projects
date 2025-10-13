@@ -37,6 +37,7 @@ In the word's card user has options to edit provided data or delete the word fro
 
 <p><b>Daily task</b><p>
 On this screen the user can practice and exercise to learn foreign words by providing memorized translation of the base word. The app displays the words from newest to oldest. User checks provided translation against the one in the database, can mark it as correct or hide the word. If the word is marked as correct it will not be shown again until the whole list is completed. Hidden words can be shown again only by editting and setting the option 'unhide' in the given word's card. There is no set number of words to be shown in the daily task. The user decides when to stop the task. When the last word in the database is reached, the app starts to show the words from the beginning.
+A scheduled Power Automate flow is used to send a notification to the user as a reminder about the daily task.
 
 <img src="/Foreign Words Dictionary/Images/DailyTaskScreen.jpg" width="200">
 <br>
