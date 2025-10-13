@@ -19,13 +19,13 @@ On the next screen a menu is displayed. User can add a new word, browse the list
 <br>
 
 <p><b>Add new word</b><p>
-In order to add a new word the user has to choose the 'base word' language, that is language the user already speaks. Then a base word has to be entered, and next the meaning (translation) in the chosen language to learn. The field 'Additional information' is optional, but here some use cases of the new word can be provided. There is also the option to record pronunciation of the new word.
+<p>In order to add a new word the user has to choose the 'base word' language, that is language the user already speaks. Then a base word has to be entered, and next the meaning (translation) in the chosen language to learn. The field 'Additional information' is optional, but here some use cases of the new word can be provided. There is also the option to record pronunciation of the new word.</p>
 
 <img src="/Foreign Words Dictionary/Images/AddNewWordScreen.jpg" width="200">
 <br>
 
 <p><b>Browse</b><p>
-Here the user can browse the list of words and translations, and access a selected word's card.
+<p>Here the user can browse the list of words and translations, and access a selected word's card.</p>
 
 <img src="/Foreign Words Dictionary/Images/BrowseScreen.jpg" width="200">
 <br>
