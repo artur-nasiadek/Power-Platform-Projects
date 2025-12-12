@@ -12,14 +12,15 @@ After opening the app the list of preselected foreign languages is displayed. Us
 <p><b>List of languages screen</b></p>
 <img src="/Foreign Words Dictionary/Images/WelcomeScreen.jpg" width="200">
 
-On the next screen a menu is displayed. User can add a new word, browse the list of already provided words, or do a 'daily task'. The flag in the screen's background indicates the chosen language.
+On the next screen a menu is displayed. User can add a new word, browse the list of already provided words, do a 'daily task', or transcript a word (speech-to-text feature). The flag in the screen's background indicates the chosen language.
 
 <p><b>Menu screen</b></p>
 <img src="/Foreign Words Dictionary/Images/MenuScreen.jpg" width="200">
 <br>
 
 <p><b>Add new word</b><p>
-<p>In order to add a new word the user has to choose the 'base word' language, that is language the user already speaks. Then a base word has to be entered, and next the meaning (translation) in the chosen language to learn. The field 'Additional information' is optional, but here some use cases of the new word can be provided. There is also the option to record pronunciation of the new word.</p>
+<p>In order to add a new word the user has to choose the 'base word' language, that is language the user already speaks. Then a base word has to be entered, and next the meaning (translation) in the chosen language to learn. The field 'Additional information' is optional, but here some use cases of the new word can be provided. Instead of entering the translation and use cases manually, the user can utilize AI by clicking on www icon in the top-right corner of the screen. It runs a Power Automate flow that prompts DeepSeek and populates output in the 'Translation' and 'Additional information' fields.
+There is also the option to record pronunciation of the new word.</p>
 
 <img src="/Foreign Words Dictionary/Images/AddNewWordScreen.jpg" width="200">
 <br>
@@ -45,4 +46,15 @@ A scheduled Power Automate flow is used to send a notification to the user as a 
 <img src="/Foreign Words Dictionary/Images/DailyTaskCheckScreen.jpg" width="200">
 <br>
 
-The toggle in the header of the screen gives the user an option to switch the base word with the translation, so the user can translate in the 'opposite direction'. 
+The toggle in the header of the screen gives the user an option to switch the base word with the translation, so the user can translate in the 'opposite direction'.
+
+<p><b>Transcript word</b><p>
+<p>Here the user can utilize speech-to-text feature. The transcribed word is added to the list and saved in the Dataverse. By clicking a word in the list the 'Add new word' sceen will be dispalyed with the clicked word as the word to translate. Then the user can provide missing details manually or use AI option.,
+I personally use this feature mainly while reading a book. It is more convenient just to record a list of new words instead of having to type them in.</p>
+
+<img src="/Foreign Words Dictionary/Images/TranscriptionsScreen.jpg" width="200">
+<br>
+
+<img src="/Foreign Words Dictionary/Images/NewWordInfo.jpg" width="200">
+<br>
+
