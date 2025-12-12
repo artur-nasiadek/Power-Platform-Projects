@@ -1,4 +1,4 @@
-## Foreign Words Dictionary w/ Power Apps, Power Automate, Dataverse
+## Foreign Words Dictionary w/ Power Apps, Power Automate, Dataverse, AI (DeepSeek, AssemblyAI)
 
 <h4>With this app the users can build and manage their own dictionary of foreign language words they would like to learn. The user enters a foreign word, its meaning, cases of use and records pronunciation. Twice a day a 'daily task' notification is sent to remind the user to practice the words.
 All data is stored in a Dataverse table.</h4>
@@ -49,7 +49,7 @@ A scheduled Power Automate flow is used to send a notification to the user as a 
 The toggle in the header of the screen gives the user an option to switch the base word with the translation, so the user can translate in the 'opposite direction'.
 
 <p><b>Transcript word</b><p>
-<p>Here the user can utilize speech-to-text feature. The transcribed word is added to the list and saved in the Dataverse. By clicking a word in the list the 'Add new word' sceen will be dispalyed with the clicked word as the word to translate. Then the user can provide missing details manually or use AI option.,
+<p>Here the user can utilize speech-to-text feature. After a word is recorded a Power Automate flow runs it through AssemblyAI. The output, transcribed word, is added to the list and saved in the Dataverse. By clicking a word in the list the 'Add new word' screen is dispalyed with the clicked word as the word to translate. Then the user can provide missing details manually or use the AI option.
 I personally use this feature mainly while reading a book. It is more convenient just to record a list of new words instead of having to type them in.</p>
 
 <img src="/Foreign Words Dictionary/Images/TranscriptionsScreen.jpg" width="200">
